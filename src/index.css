@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header & Footer */
+header,
+footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container for Components */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient Box Shadow using a pseudo-element */
+.container::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5, #4ade80);
+  z-index: -1;
+  filter: blur(8px);
+  border-radius: 10px;
+}
+
+/* APOD Component Specifics */
+.apod img,
+.apod iframe {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Headings and Paragraphs */
+h1,
+h2,
+h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}

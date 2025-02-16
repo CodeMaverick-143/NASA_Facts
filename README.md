@@ -1,85 +1,70 @@
-# Space Facts App
+# Getting Started with Create React App
 
-A sleek and modern React application that displays fascinating space images and facts sourced from NASA's Open API. This app features the Astronomy Picture of the Day (APOD), random space facts, and can be extended to include Mars Rover photos and search functionalities.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
+## Available Scripts
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Integration](#api-integration)
-- [Customization](#customization)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- **Astronomy Picture of the Day (APOD):**  
-  Displays NASA’s APOD including title, date, explanation, and media (image or video).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Random Space Fact:**  
-  Showcases a random fact about space every time the app loads.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Dark Theme with Gradient Box Shadow:**  
-  Enjoy a modern UI featuring a dark theme and a stylish gradient box shadow effect around content containers.
+### `npm test`
 
-- **Extensible Structure:**  
-  Ready to add more features such as Mars Rover photos and search functionalities.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Tech Stack
+### `npm run build`
 
-- **React.js:** JavaScript library for building user interfaces.
-- **Axios:** For handling API requests.
-- **CSS:** Custom styling for dark theme and gradient effects.
-- **NASA Open API:** Provides the data for space images and facts.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. **Clone the Repository:**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   git clone https://github.com/yourusername/space-facts-app.git
-   cd space-facts-app
-   ```
-## Install Dependencies:
+### `npm run eject`
 
-```bash
-npm install
-Setup Environment Variables:
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Create a .env file in the root directory and add your NASA API key:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```.env
-REACT_APP_NASA_API_KEY=your_nasa_api_key_here
-```
-## Start the Development Server:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-npm start
-```
-Open your browser and navigate to http://localhost:3000 to view the app.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-API Integration
-NASA Open API:
-The app utilizes the NASA Open API to fetch:
+## Learn More
 
-Astronomy Picture of the Day (APOD)
-Mars Rover Photos (extendable functionality)
-Ensure you have a valid NASA API key to get the data. For more details, visit the NASA API Documentation.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Customization
-Styling:
-The dark theme and gradient box shadow styles are defined in the src/index.css file. Feel free to adjust the color scheme, gradient, or any other style.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Components:
-The app is built with modular components (APOD.js, RandomSpaceFact.js, etc.) to easily add or modify features.
+### Code Splitting
 
-## License
-Distributed under the MIT License. See LICENSE for more information.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Acknowledgements
-- NASA for providing the open API.
-- The React community for their fantastic tools and resources.
-- Inspiration from various space-themed applications and design trends.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
